@@ -1,0 +1,24 @@
+{block content}
+{include 'default.latte'}
+<div class="boxWrapper shortBox">
+	<div class="boxHeading">Nový tábor</div>
+	<div class="boxContent">
+		{control newCampForm}
+	</div>
+</div>
+
+<div class="boxWrapper">
+	<div class="boxHeading">Přehled táborů v databázi</div>
+	<div class="boxContent">
+		<table class="dataTable">
+			<tr>
+				<th>Název</th>
+				<th>Rok</th>
+			</tr>
+			<tr class="dataTable" n:foreach="$camp as $c">
+				<td class="dataTable">{$c->name}</td>
+				<td class="dataTable">{$c->year}</td>
+			</tr>
+		</table>				
+	</div>
+</div>

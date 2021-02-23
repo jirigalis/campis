@@ -1,0 +1,730 @@
+<?xml version="1.0"?>
+<zavod rozestup="00:01:30">
+					<OSOBA id="70">
+						<JMENO>Obrtl&#xED;k Marian</JMENO>
+						<KATEGORIE>4</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:00:00</START>
+						  <CIL>00:10:14.8</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:10:14.800</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="71">
+						<JMENO>Obrtl&#xED;k Ond&#x159;ej</JMENO>
+						<KATEGORIE>2</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:01:30</START>
+						  <CIL>00:09:49.0</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:08:19.000</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="72">
+						<JMENO>Kopeck&#xE1; Kate&#x159;ina</JMENO>
+						<KATEGORIE>5</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:03:00</START>
+						  <CIL>00:15:34.6</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:12:34.600</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="73">
+						<JMENO>Kr&#x161;a Maty&#xE1;&#x161;</JMENO>
+						<KATEGORIE>2</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:04:30</START>
+						  <CIL>00:16:06.0</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:11:36.000</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="74">
+						<JMENO>Kr&#x161;ov&#xE1; Ad&#xE9;la</JMENO>
+						<KATEGORIE>3</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:06:00</START>
+						  <CIL>00:14:44.0</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:08:44.000</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="75">
+						<JMENO>Tihla&#x159;&#xED;kov&#xE1; Simona</JMENO>
+						<KATEGORIE>1</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:07:30</START>
+						  <CIL>00:15:42.2</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:08:12.200</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="76">
+						<JMENO>&#x160;ustrov&#xE1; Kl&#xE1;ra</JMENO>
+						<KATEGORIE>5</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:09:00</START>
+						  <CIL>00:16:38.0</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:07:38.000</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="77">
+						<JMENO>Bajo Viktor</JMENO>
+						<KATEGORIE>4</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:10:30</START>
+						  <CIL>00:20:03.9</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:09:33.900</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="78">
+						<JMENO>Motykov&#xE1; Vendula</JMENO>
+						<KATEGORIE>5</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:12:00</START>
+						  <CIL>00:19:22.0</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:07:22.000</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="79">
+						<JMENO>Motyka Vil&#xE9;m</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:13:30</START>
+						  <CIL>00:20:25.4</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:55.400</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="80">
+						<JMENO>Ivi&#x10D;i&#x10D; Adam</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:15:00</START>
+						  <CIL>00:22:55.5</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:07:55.500</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="81">
+						<JMENO>Veselsk&#xFD; Ond&#x159;ej</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:16:30</START>
+						  <CIL>00:23:23.1</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:53.100</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="82">
+						<JMENO>Veselsk&#xE1; Nikola</JMENO>
+						<KATEGORIE>3</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:18:00</START>
+						  <CIL>00:27:06.9</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:09:06.900</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="83">
+						<JMENO>Je&#x17E; Martin</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:19:30</START>
+						  <CIL>00:25:22.6</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:52.600</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="84">
+						<JMENO>Herz&#xE1;n Leon</JMENO>
+						<KATEGORIE>4</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:21:00</START>
+						  <CIL>00:27:51.1</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:51.100</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="85">
+						<JMENO>Svozil Tom&#xE1;&#x161;</JMENO>
+						<KATEGORIE>4</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:22:30</START>
+						  <CIL>00:31:49.5</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:09:19.500</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="86">
+						<JMENO>Jakubov&#xE1; Michaela</JMENO>
+						<KATEGORIE>3</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:24:00</START>
+						  <CIL>00:30:46.4</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:46.400</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="87">
+						<JMENO>Zavadil Jakub</JMENO>
+						<KATEGORIE>2</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:25:30</START>
+						  <CIL>00:33:00.1</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:07:30.100</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="88">
+						<JMENO>Zavadilov&#xE1; Karol&#xED;na</JMENO>
+						<KATEGORIE>1</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:27:00</START>
+						  <CIL>00:32:16.6</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:16.600</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="89">
+						<JMENO>Maxima Maty&#xE1;&#x161;</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:28:30</START>
+						  <CIL>00:33:49.7</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:19.700</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="90">
+						<JMENO>St&#xE1;rkov&#xE1; Linda</JMENO>
+						<KATEGORIE>5</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:30:00</START>
+						  <CIL>00:36:35.5</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:35.500</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="91">
+						<JMENO>Kolaja Patrik</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:31:30</START>
+						  <CIL>00:39:59.4</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:08:29.400</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="92">
+						<JMENO>Je&#x159;&#xE1;bek Ond&#x159;ej</JMENO>
+						<KATEGORIE>2</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:33:00</START>
+						  <CIL>00:40:32.3</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:07:32.300</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="93">
+						<JMENO>Jelenov&#xE1; Eli&#x161;ka</JMENO>
+						<KATEGORIE>5</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:34:30</START>
+						  <CIL>00:41:58.1</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:07:28.100</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="94">
+						<JMENO>Kulheim Ond&#x159;ej</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:36:00</START>
+						  <CIL>00:42:24.2</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:24.200</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="95">
+						<JMENO>Lenhart Kry&#x161;tof</JMENO>
+						<KATEGORIE>4</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:37:30</START>
+						  <CIL>00:43:09.3</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:39.300</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="96">
+						<JMENO>Votrubec Tom&#xE1;&#x161;</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:39:00</START>
+						  <CIL>00:45:51.6</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:51.600</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="97">
+						<JMENO>&#x10C;erm&#xE1;kov&#xE1; Andrea</JMENO>
+						<KATEGORIE>5</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:40:30</START>
+						  <CIL>00:47:01.6</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:31.600</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="98">
+						<JMENO>Typlt Pavel</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:42:00</START>
+						  <CIL>00:49:33.9</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:07:33.900</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="99">
+						<JMENO>Bajo Igor</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:43:30</START>
+						  <CIL>00:50:09.4</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:39.400</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="100">
+						<JMENO>Exel Mat&#x11B;j</JMENO>
+						<KATEGORIE>4</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:45:00</START>
+						  <CIL>00:50:54.1</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:54.100</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="101">
+						<JMENO>Benovi&#x10D;ov&#xE1; Kamila</JMENO>
+						<KATEGORIE>5</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:46:30</START>
+						  <CIL>00:52:12.4</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:42.400</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="102">
+						<JMENO>&#x10C;ervenka Lubom&#xED;r</JMENO>
+						<KATEGORIE>4</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:48:00</START>
+						  <CIL>00:54:31.5</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:31.500</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="103">
+						<JMENO>Hor&#x148;&#xE1;k Jakub</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:49:30</START>
+						  <CIL>00:56:31.8</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:07:01.800</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="104">
+						<JMENO>Chud&#xFD; Vojt&#x11B;ch</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:51:00</START>
+						  <CIL>00:56:13.5</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:13.500</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="105">
+						<JMENO>Svoboda Kamil</JMENO>
+						<KATEGORIE>4</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:52:30</START>
+						  <CIL>00:59:05.0</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:35.000</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="106">
+						<JMENO>Duro&#x148; Jaroslav</JMENO>
+						<KATEGORIE>4</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:54:00</START>
+						  <CIL>01:00:34.6</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:34.600</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="107">
+						<JMENO>Kuthan Martin</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:55:30</START>
+						  <CIL>01:01:10.5</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:40.500</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="108">
+						<JMENO>La&#x10D;&#x148;&#xE1;k Petr</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:57:00</START>
+						  <CIL>01:02:02.0</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:02.000</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="109">
+						<JMENO>Mar&#x10D;&#xED;k Petr</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:58:30</START>
+						  <CIL>01:04:23.0</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:53.000</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="110">
+						<JMENO>Nov&#xE1;k Jakub</JMENO>
+						<KATEGORIE>4</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>01:00:00</START>
+						  <CIL>01:05:30.1</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:30.100</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="111">
+						<JMENO>&#x160;ev&#x10D;&#xED;k Marek</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>01:01:30</START>
+						  <CIL>01:07:50.8</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:20.800</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="112">
+						<JMENO>Dvo&#x159;&#xE1;&#x10D;ek Jakub</JMENO>
+						<KATEGORIE>2</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>01:03:00</START>
+						  <CIL>01:08:45.4</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:45.400</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="113">
+						<JMENO>Santler Petr</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>01:04:30</START>
+						  <CIL>01:09:56.9</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:05:26.900</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="114">
+						<JMENO>Ko&#x159;&#xED;nek Jakub</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>01:06:00</START>
+						  <CIL>01:12:31.2</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:31.200</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="115">
+						<JMENO>Lazor&#xED;k Jan</JMENO>
+						<KATEGORIE>4</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>01:07:30</START>
+						  <CIL>01:13:35.0</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:05.000</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="116">
+						<JMENO>Khol Jakub</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>01:09:00</START>
+						  <CIL>01:19:15.0</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:10:15.000</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="117">
+						<JMENO>Holi&#x161;ov&#xE1; Hana</JMENO>
+						<KATEGORIE>1</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>01:10:30</START>
+						  <CIL>01:20:35.0</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:10:05.000</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="118">
+						<JMENO>Pr&#x10D;&#xED;k Vojt&#x11B;ch</JMENO>
+						<KATEGORIE>4</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>01:12:00</START>
+						  <CIL>01:21:09.4</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:09:09.400</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="119">
+						<JMENO>Mac&#xE1;kov&#xE1; Kamila</JMENO>
+						<KATEGORIE>5</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>01:13:30</START>
+						  <CIL>01:20:19.4</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:06:49.400</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="120">
+						<JMENO>&#x10C;ajkov&#xE1; Pavl&#xED;na</JMENO>
+						<KATEGORIE>3</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>01:15:00</START>
+						  <CIL>01:23:42.0</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:08:42.000</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="121">
+						<JMENO>Z&#xE1;me&#x10D;n&#xED;kov&#xE1; Julie</JMENO>
+						<KATEGORIE>1</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>01:16:30</START>
+						  <CIL>01:25:56.9</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:09:26.900</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        </zavod>

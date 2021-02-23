@@ -1,0 +1,46 @@
+@media print {
+    * {
+        margin: 0px;
+        padding: 0px;
+        color: black !important;
+        font-weight: normal;
+    }
+
+    body {
+        background: none;
+        color: black !important;
+    }
+
+    div.leftPanel,
+    .topPanel,
+    .topPanelSubmenu,
+    .teamGraph {
+        display: none;
+    }
+
+    .content {
+        margin: 0px;
+    }
+
+    table {
+        line-height: 15px;
+    }
+
+    .teamBox {
+        width: 150px;
+    }
+
+    .dataTable tr.sum-row {
+        border-top: 1px solid black;
+        font-weight: bold;
+    }
+
+    .dataTable tr.sum-row td,
+    .dataTable tr th {
+        font-weight: bold;
+    }
+
+    .dataTable .action-column {
+        display: none;
+    }
+} /* end print block */

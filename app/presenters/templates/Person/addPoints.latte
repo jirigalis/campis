@@ -1,0 +1,16 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">
+	 <li class="backBtn"><a n:href="Person: $person->id">Zpět</a></li>
+</ul>
+</div>
+{/block}
+<h1 n:block="title">Přidání bodů - {$person->name} {$person->surname}</h1>
+<div class="boxWrapper shortBox">
+	<div class="boxHeading">Přidat body</div>
+	<div class="boxContent">
+		{control addPointsForm}
+	</div>
+</div>
+

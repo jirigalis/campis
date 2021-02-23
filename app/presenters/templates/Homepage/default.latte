@@ -1,0 +1,156 @@
+{block content}
+<script type="text/javascript">
+$(document).ready(function(){
+	var dataX = {$dataX}
+	var dataY = {$dataY}
+
+		var margin = { top: 20, right: 20, bottom: 30, left: 40 },
+	    	width = 400 - margin.left - margin.right,
+	    	height = 300 - margin.top - margin.bottom;
+
+    	var x = d3.scale.ordinal()
+		    .rangeRoundBands([0, width], .1)
+		    .domain(dataX);
+
+		var y = d3.scale.linear()
+		    .range([height, 0])
+		    .domain([0, d3.max(dataY)]);
+
+		var xAxis = d3.svg.axis()
+		    .scale(x)
+		    .orient("bottom");
+
+		var yAxis = d3.svg.axis()
+		    .scale(y)
+		    .orient("left")
+		    .ticks(6);
+
+		var svg = d3.select("#barChart").append("svg").attr("class", "chart")
+	    	.attr("width", width + margin.left + margin.right)
+	    	.attr("height", height + margin.top + margin.bottom)
+		  	.append("g")
+		    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+			svg.append("g")
+		      .attr("class", "x axis")
+		      .attr("transform", "translate(0," + height + ")")
+		      .attr("fill", "white")
+		      .call(xAxis)
+		      .selectAll("text")
+        		.style("font-size", "1.6em");
+
+			svg.append("g")
+			  .attr("class", "y axis")
+		      .attr("fill", "white")
+			  .call(yAxis)
+		      .selectAll("text")
+        		.style("font-size", "1.5em")
+				.style("font-weight", "bold");
+
+        	svg.selectAll(".hLine")
+        		.data(dataX)
+        		.enter().append("line")
+        		.attr("class", "hLine")
+        		.attr("x1", 0)
+        		.attr("x2", width)
+        		.attr("y1", function(d, i) { return (height/5)*i; })
+        		.attr("y2", function(d, i) { return (height/5)*i; })
+        		.attr("fill", "rgba(255, 255, 255, 0.1)")
+        		.attr("stroke", "rgba(200, 200, 200, 0.1)");
+
+        	
+			var bar = svg.selectAll(".bar")
+			  .data(dataY)
+			.enter().append("rect")
+			  .attr("class", "bar")
+			  .attr("width", 20)
+			  .attr("x", function(d, i) { return x(dataX[i]) + 15; })
+			  .attr("y", function(d) { return height - d*10; })
+			  .attr("height", function(d) { return d*10; })
+			  .attr("fill", "#00C7D2");
+
+			/**** PIE CHART ****/
+			var data = [{$manCount}, {$womanCount}];
+			var pieWidth = 202, pieHeight = 180, radius = 80;
+
+			var colorMan = ["rgb(95, 179, 51)", "rgba(95, 179, 51, 0.3)"];
+			var colorWoman = ["rgba(255, 204, 0, 0.3)", "rgb(255, 204, 0)"];
+
+
+			var arc = d3.svg.arc()
+				.outerRadius(radius-10)
+				.innerRadius(radius-20);
+
+			var pie = d3.layout.pie()
+				.sort(null)
+				.value(function(d, i) { return data[i]; });
+			
+
+			var svgMan = d3.select("#pieChartMan").append("svg")
+				.attr("width", pieWidth)
+				.attr("height", pieHeight)
+				.append("g")
+					.attr("transform", "translate(" + pieWidth / 2 + "," + pieHeight / 2 + ")");
+
+
+			var g = svgMan.selectAll(".arcMan")
+				.data(pie(data))
+				.enter().append("g")
+					.attr("class", "arcMan");
+
+			g.append("path")
+				.attr("d", arc)
+				.style("fill", function(d, i) {	return colorMan[i]; });
+		
+			svgMan.append("text")
+				.attr("class", "pieChartLabel")
+				.text("Počet chlapců")
+					.attr("transform", "translate(0," + (pieHeight/2) + ")")
+					.attr("text-anchor", "middle");
+			svgMan.append("text")
+				.attr("class", "pieChartValue")
+				.text(data[0])
+					.attr("transform", "translate(0,12)")
+					.attr("text-anchor", "middle");
+
+			//holky
+			var svgWoman = d3.select("#pieChartWoman").append("svg")
+				.attr("width", pieWidth)
+				.attr("height", pieHeight)
+				.append("g")
+					.attr("transform", "translate(" + pieWidth / 2 + "," + pieHeight / 2 + ")");
+
+			var g2 = svgWoman.selectAll(".arcWoman")
+				.data(pie(data))
+				.enter().insert("g", ":first-child")
+					.attr("class", "arcWoman");
+
+			g2.append("path")
+				.attr("d", arc)
+				.style("fill", function(d, i) {	return colorWoman[i]; });
+
+			svgWoman.append("text")
+				.attr("class", "pieChartLabel")
+				.text("Počet dívek")
+					.attr("transform", "translate(0," + (pieHeight/2) + ")")
+					.attr("text-anchor", "middle");
+			svgWoman.append("text")
+				.attr("class", "pieChartValue")
+				.text(data[1])
+					.attr("transform", "translate(0,12)")
+					.attr("text-anchor", "middle");
+});
+</script>
+<div class="boxWrapper shortBox chart">
+	<div class="boxHeading">Počty lidí v kategoriích</div>
+	<div class="boxContent" id="barChart">	
+	</div>
+</div>
+<div class="boxWrapper shortBox">
+	<div class="boxHeading">Holky vs. kluci</div>
+	<div class="boxContent higher">	
+		<div  id="pieChartMan"></div>
+		<div  id="pieChartWoman"></div>
+	</div>
+</div>
+{/block}

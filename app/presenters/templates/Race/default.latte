@@ -1,0 +1,42 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">	
+	 <li><a n:href="Race:newRace">Vytvořit nový závod</a></li>
+	 <li><a n:href="Race:team">Zobrazit oddílové soutěže</a></li>	
+</ul>
+</div>
+{/block}
+<div class="boxWrapper full-width">
+	<div class="boxHeading">Přehled závodů jednotlivců</div>
+	<div class="boxContent">
+		<table class="dataTable">
+			<tr>
+				<th>Název</th>
+				<th>Stav</th>
+				<th class="action-column">Akce</th>
+				<th>Datum</th>
+				<th>Poznámka</th>
+			</tr>
+			<tr class="dataTable" n:foreach="$race as $r">
+				<td class="dataTable">
+					<a n:href="Race:detail $r->id" title="Přejít na detail závodu" class="dataTableLink">{$game->get($r->game)->name}</a>
+				</td>
+				<td class="dataTable">{$state->get($r->state)->name}</td>
+				<td class="dataTable action-column">
+					{if $r->state == 3}
+						<a n:href="Race:result $r->id, 0" title="Zobrazit výsledky závodu">
+							<button>Výsledky</button>
+						</a>
+					{else}
+						<a n:href="Race:detail $r->id" title="Zobrazit výsledky závodu">
+							<button>Zobrazit závod</button>
+						</a>
+					{/if}
+				</td>
+				<td class="dataTable">{$r->date}</td>
+				<td class="dataTable">{$r->note}</td>
+			</tr>
+		</table>				
+	</div>
+</div>

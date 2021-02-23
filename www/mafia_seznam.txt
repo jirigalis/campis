@@ -1,0 +1,52 @@
+Obrtlík Marian;Tř. Bří. Čapků 11, Hodonín;010806/0000;pauluss@tiscali.cz
+Obrtlík Ondřej;Tř. Bří. Čapků 11, Hodonín;050607/0000;pauluss@tiscali.cz
+Kopecká Kateřina;Viklefova 2, Praha 3;995406/0000;tel. 737881183
+Krša Matyáš;U Túfarky 182, Čejkovice;040504/0000;krsovaladka@seznam.cz
+Kršová Adéla;U Túfarky 182, Čejkovice;026106/0000;tel. 720994672
+Tihlaříková Simona;Okružní 917, Čejkovice;065310/0000;tihlarikova917@seznam.cz
+Šustrová Klára;Morávky 1404, Velké Bílovice;996218/0000;adajka@seznam.cz
+Bajo Viktor;Jiráskova 12, Hodonín;010530/0000;bajoigor@seznam.cz
+Motyková Vendula;Radniční 241, Starý Podvorov;005421/0000;e.motykova@seznam.cz
+Motyka Vilém;Radniční 241, Starý Podvorov;010419/0000;e.motykova@seznam.cz
+Ivičič Adam;Cihlářská 16, Hodonín;001106/0000;k-ivi@seznam.cz
+Veselský Ondřej;Starý Podvorov 200;991029/0000;anna.svobodova@seznam.cz
+Veselská Nikola;Starý Podvorov 200;025620/0000;anna.svobodova@seznam.cz
+Jež Martin;Hutník 1403, Veselí nad Moravou;990222/0000;ivana.mail.@seznam.cz
+Herzán Leon;Erbenova 3, Hodonín;010518/0000;katkaherzanova@seznam.cz
+Svozil Tomáš;Lovčice 138;020103/0000;svozalumas@seznam.cz
+Jakubová Michaela;Šafaříkova 1, Hodonín;015430/0000;tel. 774952191
+Zavadil Jakub;Nový Podvorov 23;050304/0000;xzavadilovam@seznam.cz
+Zavadilová Karolína;Nový Podvorov 23;065513/0000;xzavadilovam@seznam.cz
+Maxima Matyáš;Zelenohorská 530/23, Praha 8;010424/0000;maximovi@seznam.cz
+Stárková Linda;Řešovská 3, Praha 8;006027/0000;linda adamova@hotmail.cz
+Kolaja Patrik;Komenského 1166, Vracov;010110/0000;Mohykán;
+Jeřábek Ondřej;Úzká 864, Čejkovice;051211/0000;leonajerabkova@centrum.cz
+Jelenová Eliška;- ;995908/0000;Lenka Jelenová
+Kulheim Ondřej;Baráky 1162, Svatobořice;991019/0000;Lenka Jelenová
+Lenhart Kryštof;Pod Kostelem 1210, Svatobořice;021528/0000;Lenka Jelenová 
+Votrubec Tomáš;- ;991006/0000;Zdeněk Votrubec
+Čermáková Andrea;Biskupcova, Praha 3;985131/0000;Pavlína
+Typlt Pavel;Horní 50, Josefov;990806/0000;j.typltova@seznam.cz
+Bajo Igor;Jiráskova 12, Hodonín;980108/0000;bajoigor@seznam.cz;
+Exel Matěj;Borová 1717, 69642 Vracov;011218/0000;irena.exelova@email.cz
+Benovičová Kamila;Svatobořice 41;005202/0000;lenbeno@centrum.cz
+Červenka Lubomír;Na Zelničkách 67, Svatobořice;030502/0000;Lenka Jelenová
+Horňák Jakub;Zámecká 829, Ždánice;000915/0000;dana.hornakova@seznam.cz
+Chudý Vojtěch;Kaštýlek 25, Ždánice;010416/0000;martina.chuda@seznam.cz
+Svoboda Kamil;Lovčice 136;020621/0000;- 
+Duroň Jaroslav;Mětečko 193, Ždánice;011009/0000;dduronova@seznam.cz
+Kuthan Martin;Lovčice 134;991219/0000;- 
+Lačňák Petr;Hutník 1421, Veselí nad Moravou;990309/0000;alyyx@centrum.cz
+Marčík Petr;Patočkova 23, Hodonín;971022/0000;jarus.mar@seznam.cz
+Novák Jakub;Dubňany 669;010713/0000;janicka.n@tiscali.cz
+Ševčík Marek;Masarykovo nám. 5, Hustopeče;980920/0000;-
+Dvořáček Jakub;I. Olbrachta 2, Hodonín;060329/0000;viktorova.marta@seznam.cz
+Santler Petr;Zámecká 861, Ždánice;001016/0000;danuse_santlerova@kb.cz
+Kořínek Jakub;Kostelní 805, Ždánice;990325/0000;- 
+Lazorík Jan;Anenská 4, hodonín;020701/0000;polackova65@seznam.cz
+Khol Jakub;Šardická 519, Svatobořice-Mistřín;991115/0000;kholovasimona@seznam.cz
+Holišová Hana;Brandlova 139, Hodonín;045508/0000;hanycka.dobrovolna@email.cz
+Prčík Vojtěch;Dukelská 42, Hodonín;020106/0000;Lenka Votrubcová
+Macáková Kamila;Hodonínská 366, Mutěnice;015212/0000;tom.macak@seznam.cz
+Čajková Pavlína;velká nad Veličkou 297;036028/0000;yvettcajkova@seznam.cz
+Zámečníková Julie;Velká nad Veličkou 801;045709/0000;zamecnikova1@seznam.cz

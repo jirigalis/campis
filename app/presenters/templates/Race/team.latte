@@ -1,0 +1,34 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">	
+	 <li class="backBtn"><a n:href="Race:">Zpět</a></li>	
+	 <li><a n:href="Race:newTeamRace">Vložit novou soutěž</a></li>
+</ul>
+</div>
+{/block}
+<div class="boxWrapper">
+	<div class="boxHeading">Přehled oddílových soutěží</div>
+	<div class="boxContent">
+		<table class="dataTable">
+			<tr>
+				<th>Název</th>
+				<th>Oddíl</th>
+				<th>Pořadí</th>
+				<th>Body</th>
+				<th>Datum</th>
+				<th>Poznámka</th>
+			</tr>
+			<tr class="dataTable" n:foreach="$race as $r">
+				<td class="dataTable">
+					<a n:href="Race:teamResult $r->game" title="Přejít na detail závodu" class="dataTableLink">{$game->get($r->game)->name}</a>
+				</td>
+				<td class="dataTable">{$team->get($r->team)->number}</td>
+				<td class="dataTable">{$r->rank}</td>
+				<td class="dataTable">{$r->points}</td>
+				<td class="dataTable">{$r->date}</td>
+				<td class="dataTable">{$r->note}</td>
+			</tr>
+		</table>				
+	</div>
+</div>

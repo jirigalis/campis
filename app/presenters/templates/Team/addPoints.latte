@@ -1,0 +1,14 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">
+	 <li class="backBtn"><a n:href="Team:detail $team->id">Zpět</a></li>
+</ul>
+</div>
+{/block}
+<div class="boxWrapper shortBox">
+	<div class="boxHeading">Přidat body oddílu {$team->name}</div>
+	<div class="boxContent">
+		{control addPointsForm}
+	</div>
+</div>

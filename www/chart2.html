@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Line Chart</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css">
+	<style>
+	canvas{
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+	</style>
+</head>
+
+<body>
+	<div style="width:75%;">
+		<canvas id="canvas"></canvas>
+	</div>
+	<script type="c19af9e2eb425e48369dda11-text/javascript">
+		$.getJSON("./tmp/teamGraph.json", function(json) {
+			createGraph(json);			
+		});
+	
+		function createGraph(json) {
+
+			const data = [];
+			const xLabels = [];
+			const teams = [];
+			const colors = [
+				"rgb(255, 195, 18)",
+				"rgb(196, 229, 56)",
+				"rgb(18, 203, 196)",
+				"rgb(253, 167, 223)",
+				"rgb(237, 76, 103)",
+				"rgb(247, 159, 31)",
+				"rgb(163, 203, 56)",
+				"rgb(18, 137, 167)",
+				"rgb(217, 128, 250)",
+				"rgb(181, 52, 113)",
+				"rgb(238, 90, 36)",
+				"rgb(0, 148, 50)",
+				"rgb(6, 82, 221)",
+				"rgb(153, 128, 250)",
+				"rgb(131, 52, 113)",
+				"rgb(234, 32, 39)",
+				"rgb(87, 88, 187)"
+			];
+
+			json.forEach(val => {
+				if ($.inArray(val.datestr, xLabels) < 0) {
+					xLabels.push(val.datestr);
+				}
+				if ($.inArray(val.team, teams) < 0) {
+					teams.push(val.team);
+				}
+			});
+			
+			teams.forEach(team => {
+				let color = colors[Math.floor(Math.random() * colors.length)];
+				let item = {
+					label: team,
+					lineTension: 0,
+					backgroundColor: color,
+					borderColor: color,
+					data: fetchValuesForTeam(json, team),
+					fill: false
+				}
+				data.push(item);
+			});
+			
+			
+			const dates = $.each(data, item => { return item; });
+			var ctx = $("#canvas");
+			window.myChart = new Chart(ctx, {
+				type: 'line',
+				data: {
+					labels: xLabels,
+					datasets: data					
+				},
+				options: {}
+			});
+			
+		};
+		
+		function fetchValuesForTeam(data, team) {
+			const result = [];
+			
+			data.forEach(v => {
+				if (v.team == team) {
+					result.push(v.cumulative_sum);
+				}
+			});
+			return result;
+		}
+	</script>
+	<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="c19af9e2eb425e48369dda11-|49" defer=""></script>
+
+	</body>
+</html>

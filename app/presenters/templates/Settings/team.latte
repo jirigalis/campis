@@ -1,0 +1,17 @@
+{block content}
+{include 'default.latte'}
+<div class="boxWrapper mediumBox">
+	<div class="boxHeading">Nastavení oddílů</div>
+	<div class="boxContent">
+		<form n:name=teamAdminForm class=form>
+		    {foreach $teamNumbers as $i}
+		    	Název: <input n:name='name_{$i}'>
+		    	Vedoucí: <select n:name='headId_{$i}'></select>
+		    	Instruktor: <select n:name='instrId_{$i}'></select>
+		    	<br />
+		    {/foreach}
+		    <p><input n:name='send' class="btn btn-default"></p>
+		</form>
+	</div>
+</div>
+

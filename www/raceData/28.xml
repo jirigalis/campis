@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<zavod rozestup="00:01:00">
+					<OSOBA id="7">
+						<JMENO>ztest2 test</JMENO>
+						<KATEGORIE>3</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:00:00</START>
+						  <CIL>00:00:02.4</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:00:02.400</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="10">
+						<JMENO>Ml&#xE1;ti&#x10D;ka Franta</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:01:00</START>
+						  <CIL>00:00:02.7</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:00:-57.300</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="11">
+						<JMENO>Kopal&#x16F; Jo&#x17E;ka</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:02:00</START>
+						  <CIL>00:00:03.1</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:0-1:-56.900</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="13">
+						<JMENO>K&#x159;&#xED;&#x17E;ovic Katka</JMENO>
+						<KATEGORIE>3</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:03:00</START>
+						  <CIL>00:00:04.1</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:0-2:-55.900</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="15">
+						<JMENO>Dobrota Franti&#x161;ek</JMENO>
+						<KATEGORIE>2</KATEGORIE>
+						<VYBEHL>1</VYBEHL>
+		                                <CASY>
+						  <START>00:04:00</START>
+						  <CIL>00:00:04.4</CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY>00:0-3:-55.600</VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        </zavod>

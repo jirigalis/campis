@@ -1,0 +1,29 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">
+	 <li class="backBtn"><a n:href="Team:">Zpět</a></li>
+</ul>
+</div>
+{/block}
+<div class="boxWrapper shortBox">
+	<div class="boxHeading">Přidat body vedoucímu</div>
+	<div class="boxContent">
+		{control addPointsLeadForm}
+	</div>
+</div>
+<div class="boxWrapper mediumBox">
+	<div class="boxHeading">Přehled bodování vedoucích</div>
+	<div class="boxContent">
+		<table class="dataTable">
+			<tr>
+				<th>Jméno</th>
+				<th>Počet bodů</th>
+			</tr>
+			<tr class="dataTable" n:foreach="$leadPoints as $l">
+				<td class="dataTable">{$l->name} {$l->surname}</td>
+				<td class="dataTable">{$l->sum}</td>
+			</tr>
+		</table>				
+	</div>
+</div>

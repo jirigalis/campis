@@ -1,0 +1,27 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">
+	 <li class="backBtn"><a n:href="Team:detail $team->id">Zpět</a></li>
+</ul>
+</div>
+{/block}
+<div class="boxWrapper">
+	<div class="boxHeading">{$team->name}</div>
+	<div class="boxContent">
+		<table id="sortable" class="dataTable tablesorter">
+			<thead>
+			<tr>
+				<th class="name">Jméno</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr n:foreach="$children as $child">
+				<td class="name">
+					<a n:href="Person: $child->id" title="Přejít na detail osoby" class="dataTableLink">{$child->name} {$child->surname}</a>
+				</td>			
+			</tr>
+			</tbody>
+		</table>			
+	</div>
+</div>

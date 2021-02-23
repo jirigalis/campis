@@ -1,0 +1,78 @@
+{block content}
+{block submenu}
+<script>
+        function updatedisplay(watch) {
+        document.forms["stopky_form"].elements["cas"].value = watch.toString() + "." + parseInt(watch.getElapsed().milliseconds/100);
+        //document.forms["stopky_form"].elements["stopky"].value = "aaaaa";
+        }
+        var w = new Stopwatch(updatedisplay, 50);
+</script> 
+<div class="topPanelSubmenu">
+<ul class="dropdown">	
+	 <li class="backBtn"><a n:href="Race:">Zpět</a></li>
+	 {if $race->state > 1}	
+	 <li><a n:href="Race:result $presenter->getParam('id'), 0">Zobrazit výsledky</a></li>	
+	 {/if}
+</ul>
+</div>
+{/block}
+<div class="boxWrapper">
+	<div class="boxHeading">Časomíra</div>
+	<div class="boxContent stopwatch">
+		<form name="stopky_form">
+			STOPKY: <input type="text" id="cas" name="cas" size="20">
+			<input type="button" value="START" onClick="w.start();" class=stopky>
+			<input type="button" value="STOP" onClick="w.stop();" class=stopky>
+			<input type="button" value="RESET" onClick="w.reset();" class=stopky>
+		</form>
+	</div>
+</div>
+<!-- RACE DETAIL -->
+<div class="boxWrapper">
+	<div class="boxHeading">Přehled závodníků</div>
+	<div class="boxContent">
+	<form id="race_form" method="post"><input type="hidden" name="send" value="1">
+		<table class='dataTable raceTable'>
+			<tr align="left">
+				<th>Jméno</th>
+				<th>Vyběhl</th>
+				<th>Start</th>
+				<th>Cíl</th>
+				<th>Tr. min</th>
+				<th>Stopčas</th>
+				<th>Výsled. čas</th>
+			</tr>
+
+			<script type="text/javascript">
+			var rows = [];
+			</script>
+
+			<tr n:foreach="$xml_file->OSOBA as $i => $item">
+				<td>{$item->JMENO}</td>
+				<td><input type="text" name="start_{$item['id']}" value="{$item->CASY->START}"></td>
+				<td><input type="checkbox" name="vybehl_{$item['id']}" value="1" {if $item->VYBEHL == 1}checked {/if}></td>
+				<td>
+					<input type="text" name="cil_{$item['id']}" value="{$item->CASY->CIL}">
+					<input type="button" name="cil_btn_{$item['id']}" value="STOP" onClick = "$(this).prev().val($('#cas').val())">
+				</td>
+				<td><input type="text" name="trmin_{$item['id']}" value="{$item->CASY->TRMIN}"></td>
+				<td><input type="text" name="stopcas_{$item['id']}" value="{$item->CASY->STOPCAS}"></td>
+				<td><input type="text" name="vysledny_{$item['id']}" value="{$item->CASY->VYSLEDNY}"></td>
+				<td>
+					<script>
+						var i = <?php echo $item['id']; ?>;
+						rows.push(i);
+					</script>
+					<input type="button" name="eval_btn_{$item['id']}" value="SPOČÍTAT" onClick = "evalRow('<?php echo $item['id']; ?>')">
+				</td>
+				<input type="hidden" name="id_{$item['id']}" value="{$item['id']}">
+
+			</tr>
+		
+		</table><br />
+			<center>
+			<input type="button" value = '  Uložit a ukončit  ' class="stopwatch" onClick="if (confirm('Přejete si uložit provedené změny ve formuláři?')) { evalAll(rows); }">
+			</center>
+			</form>
+	</div>
+</div>

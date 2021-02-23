@@ -1,0 +1,71 @@
+<zavod rozestup = "00:02:00">
+					<OSOBA id="7">
+						<JMENO>ztest2 test</JMENO>
+						<KATEGORIE>3</KATEGORIE>
+						<VYBEHL></VYBEHL>
+		                                <CASY>
+						  <START>00:00:00</START>
+						  <CIL></CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY></VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="10">
+						<JMENO>Mlátička Franta</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL></VYBEHL>
+		                                <CASY>
+						  <START>02:00:00</START>
+						  <CIL></CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY></VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="11">
+						<JMENO>Kopalů Jožka</JMENO>
+						<KATEGORIE>6</KATEGORIE>
+						<VYBEHL></VYBEHL>
+		                                <CASY>
+						  <START>04:00:00</START>
+						  <CIL></CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY></VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="13">
+						<JMENO>Křížovic Katka</JMENO>
+						<KATEGORIE>3</KATEGORIE>
+						<VYBEHL></VYBEHL>
+		                                <CASY>
+						  <START>06:00:00</START>
+						  <CIL></CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY></VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        
+					<OSOBA id="15">
+						<JMENO>Dobrota František</JMENO>
+						<KATEGORIE>2</KATEGORIE>
+						<VYBEHL></VYBEHL>
+		                                <CASY>
+						  <START>08:00:00</START>
+						  <CIL></CIL>
+						  <STOPCAS></STOPCAS>
+						  <TRMIN></TRMIN>
+						  <VYSLEDNY></VYSLEDNY>
+						</CASY>
+						<PORADI>0</PORADI>
+					</OSOBA>
+		                        </zavod>

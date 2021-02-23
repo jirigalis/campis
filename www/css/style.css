@@ -1,0 +1,476 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'segoe';
+    src: url('./SEGOEUIL.ttf');
+}
+
+@font-face {
+    font-family: 'scrgunny';
+    src: url('./scrgunny.ttf');
+}
+
+/** TRACE DEBUG BUGFIX **/
+#tracy-debug + #tracy-debug {
+    display: none !important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: url(../images/background.jpg);
+    background-size: 100% 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+}
+
+div.footer + div {
+    display: none;
+}
+
+h1 {
+    color: #3484d2;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-left: 200px;
+}
+
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/**********************
+ *     DATA TABLE     *
+ **********************/
+
+table.dataTable {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+
+table.dataTable td {
+    padding: 1px 7px;
+}
+
+table.dataTable tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+table.dataTable th {
+    text-align: left;
+    min-width: 100px;
+}
+
+.dataTableLink {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dataTableLink:hover {
+    text-decoration: underline;
+}
+
+table.tablesorter thead tr .header {
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+
+table.tablesorter thead tr .headerSortUp {
+    background-image: url(../js/themes/blue/asc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown {
+    background-image: url(../js/themes/blue/desc.gif);
+}
+
+.dataTable button {
+    font-family: 'Roboto', sans-serif !important;
+    background: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 3px 13px;
+}
+
+.dataTable button:hover {
+    background-color: #f3d673;
+    color: black;
+}
+
+.dataTable tr.sum-row {
+    border-top: 1px solid white;
+    font-weight: bold;
+}
+
+/***********************
+ *     CONTENT BOX     *
+ ***********************/
+
+.teamWrapper {
+    height: 220px;
+}
+
+.boxWrapper {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    margin: 10px 5px;
+    font-size: 0.9em;
+    float: left;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.teamBox {
+    width: 200px;
+}
+
+.teamBox {
+    float: left;
+    height: 200px;
+}
+
+.shortBox {
+    width: 420px;
+}
+
+.mediumBox {
+    width: 650px;
+}
+
+.largeBox {
+    width: 800px;
+}
+
+.xlargeBox {
+    width: 1100px;
+}
+
+.fullBox {
+    width: 100%;
+}
+
+.boxHeading {
+    border-bottom: 1px solid #393939;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.boxContent {
+    padding: 5px;
+}
+
+.higher {
+    height: 200px;
+}
+
+.contentLeft {
+    float: left;
+}
+
+.contentRight {
+    float: left;
+}
+
+.teamBox .boxContent {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/***********************
+ *     RACE DETAIL     *
+ ***********************/
+.stopwatch {
+    text-align: center;
+}
+
+.stopwatch,
+.stopwatch input {
+    font-size: 30px;
+}
+
+.raceTable input[type='text'] {
+    width: 80px;
+}
+
+/***********************
+ *     MAIN CONTENT    *
+ ***********************/
+.mainContentWrapper {
+    padding: 10px;
+}
+
+.mainContent {
+    padding: 10px;
+}
+
+/*********************
+ *     TOP PANEL     *
+ *********************/
+.topPanel {
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding-left: 10px;
+    border-bottom: 1px solid #181818;
+    font-family: 'scrgunny';
+    font-size: 38px;
+}
+
+.topPanelLeft {
+    position: relative;
+    float: left;
+}
+
+.topPanelRight {
+    float: right;
+}
+
+.topPanelCamp {
+    float: left;
+    margin-right: 15px;
+}
+
+.topPanelSettings,
+.topPanelPrint {
+    float: left;
+    background-position: center -5px;
+    background-repeat: no-repeat;
+    background-size: 55px 55px;
+    font-family: 'segoe';
+    width: 75px;
+}
+
+.topPanelSettings {
+    background-image: url(../images/menu/settings.png);
+}
+
+.topPanelPrint {
+    background-image: url(../images/menu/print.png);
+    cursor: pointer;
+    background-size: 50px 50px;
+}
+
+a.settingsBtn,
+a.printBtn {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 75px;
+    height: 60px;
+    color: white;
+    text-align: center;
+}
+
+a.settingsBtn:hover,
+a.printBtn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+span.settingsBtnWrapper {
+    position: relative;
+    top: 37px;
+}
+
+.topPanelSubmenu {
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin: -10px -10px 5px -10px;
+}
+
+/****************
+ *     MENU     *
+ ****************/
+.leftPanel {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.logoWrapper {
+    width: 200px;
+    height: 121px;
+    border-bottom: 1px solid #252525;
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+.logo {
+    position: relative;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    background-image: url(../images/logo.png);
+    background-size: 80% 80%;
+    background-position: center center;
+    top: 15px;
+    left: 50px;
+    background-repeat: no-repeat;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a.menuLink {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 140px;
+    height: 50px;
+    padding-left: 60px;
+    border-bottom: 1px solid #222;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.08);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+}
+
+span.menu {
+    position: relative;
+    top: 12px;
+}
+
+a.menuLink:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+a.menuLinkHome {
+    background-image: url(../images/menu/home.png);
+}
+
+a.menuLinkPeople {
+    background-image: url(../images/menu/people.png);
+}
+
+a.menuLinkPoints {
+    background-image: url(../images/menu/points.png);
+}
+
+a.menuLinkRaces {
+    background-image: url(../images/menu/race.png);
+}
+
+a.menuLinkGames {
+    background-image: url(../images/menu/games.png);
+}
+
+/**************
+ *   FOOTER   *
+ **************/
+
+.footer {
+    position: fixed;
+    width: 100%;
+}
+
+/***************
+ *   OSTATNI   *
+ ***************/
+
+#ajax-spinner {
+    margin: 15px 0 0 15px;
+    padding: 13px;
+    background: white url('../images/spinner.gif') no-repeat 50% 50%;
+    font-size: 0;
+    z-index: 123456;
+    display: none;
+}
+
+div.flash {
+    color: black;
+    background: #fff9d7;
+    border: 1px solid #e2c822;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+a[href^='#error:'] {
+    background: red;
+    color: white;
+}
+
+form th,
+form td {
+    vertical-align: top;
+    font-weight: normal;
+}
+
+form th {
+    text-align: right;
+}
+
+form .required label {
+    font-weight: bold;
+}
+
+form .error {
+    color: #d00;
+    font-weight: bold;
+}
+
+form div.boxContent {
+    width: 400px;
+    color: yellow;
+}
+
+/*****************
+ *  GRAPH STYLE  *
+ *****************/
+
+#pieChartMan,
+#pieChartWoman {
+    position: relative;
+    float: left;
+    height: 200px;
+}
+
+#pieCharMan {
+    height: 200px;
+}
+
+.pieChartLabel,
+.pieChartValue {
+    text-align: center;
+    fill: #fff;
+}
+
+.pieChartValue {
+    font-size: 40px;
+}

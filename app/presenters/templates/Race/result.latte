@@ -1,0 +1,20 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">	
+	<li class="backBtn"><a n:href="Race:">Zpět</a></li>
+	{if $race->state < 3}	
+		<li><a n:href="Race:result $race->id,1">Zapsat body</a></li>
+	{/if}
+</ul>
+</div>
+{/block}
+<h1 n:block = "title">Výsledky závodu {$raceName}</h1>
+<div class="boxWrapper mediumBox" n:foreach="$results as $result">
+	{if $result->getCatLength() > 0}
+	<div class="boxHeading">{$result->getName()}</div>
+	<div class="boxContent">
+		{php echo $result->printPersons(0)}
+	</div>
+	{/if}
+</div>

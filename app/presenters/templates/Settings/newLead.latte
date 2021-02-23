@@ -1,0 +1,28 @@
+{block content}
+{include 'default.latte'}
+<div class="boxWrapper newCamp shortBox">
+	<div class="boxHeading">Nový tábor</div>
+	<div class="boxContent">
+		{control newLeadForm}
+	</div>
+</div>
+
+<div class="boxWrapper mediumBox">
+	<div class="boxHeading">Přehled členů vedení</div>
+	<div class="boxContent">
+		<table class="dataTable">
+			<tr>
+				<th>Jméno</th>
+				<th>Datum narození</th>
+				<th>Rodné číslo</th>
+				<th>Funkce</th>
+			</tr>
+			<tr class="dataTable" n:foreach="$lead as $l">
+				<td class="dataTable">{$l->name} {$l->surname}</td>
+				<td class="dataTable">{$presenter->getBirth($l->rc)}</td>
+				<td class="dataTable">{$l->rc}</td>
+				<td class="dataTable">{$function->get($l->function)->name}</td>
+			</tr>
+		</table>				
+	</div>
+</div>

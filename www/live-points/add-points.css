@@ -1,0 +1,77 @@
+body {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #262636 !important;
+    color: white !important;
+}
+
+.container-fluid {
+    padding: 30px 20px 20px 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+p.heading {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.toast.show {
+    max-width: 100%;
+}
+
+.child-input,
+.points-input,
+.note-input,
+.form-check.team-only,
+#submitPoints {
+    display: none;
+}
+
+#submitPoints {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+#footer {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.info-button,
+.close-button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: 3px solid white;
+    color: white;
+}
+
+#info-box {
+    display: none;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #262636 !important;
+    padding: 10px;
+}
+
+#info-box .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

@@ -1,0 +1,72 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">	
+	 <li><a n:href="People: surname">Řazení podle abecedy</a></li>
+	 <li><a n:href="People:teams">Výpis oddílů</a></li>
+	 <li><a n:href="People:categories">Výpis kategorií</a></li>	
+	 <li><a>Zobrazení sloupců</a>
+	 	<ul class='sub_menu'>
+	 		<li><a onclick="hideColumn('name')">
+	 			<label for='name'>Jméno &nbsp;</label>
+	 			<input type='checkbox' id='name' name='name' checked="1">
+ 			</a></li>
+	 		<li><a onclick="hideColumn('rc')">
+		 		<label for='rc'>Rodné číslo &nbsp;</label>
+		 		<input type='checkbox' id='rc' name='rc' checked='1'>
+	 		</a></li>
+	 		<li><a onclick="hideColumn('adress')">
+		 		<label for='adress'>Adresa &nbsp;</label>
+		 		<input type='checkbox' id='adress' name='adress' checked='1'>
+	 		</a></li>
+	 		<li><a onclick="hideColumn('age')">
+		 		<label for='age'>Věk &nbsp;</label>
+		 		<input type='checkbox' id='age' name='age' checked='1'>
+	 		</a></li>
+	 		<li><a onclick="hideColumn('category')">
+		 		<label for='category'>Kategorie &nbsp;</label>
+		 		<input type='checkbox' id='category' name='category' checked='1'>
+	 		</a></li>
+	 		<li><a onclick="hideColumn('team')">
+		 		<label for='team'>Oddíl &nbsp;</label>
+		 		<input type='checkbox' id='team' name='team' checked='1'>
+	 		</a></li>
+	 		<li><a>
+		 		<label for='printMode' onclick="printMode(this)">Zobrazit jen jména &nbsp;</label>
+		 		<input type='checkbox' id='printMode' name='printMode'>
+	 		</a></li>	
+	 		
+	 	</ul>
+	 </li>	
+</ul>
+</div>
+{/block}
+<div class="boxWrapper">
+	<div class="boxHeading">Přehled dětí</div>
+	<div class="boxContent">
+		<table id="sortable" class="dataTable tablesorter">
+			<thead>
+			<tr>
+				<th class="name">Jméno</th>
+				<th class="rc">RČ</th>
+				<th class="adress">Adresa</th>
+				<th class="age">Věk</th>
+				<th class="category">Kategorie</th>
+				<th class="team">Oddíl</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr n:foreach="$children as $child">
+				<td class="name">
+					<a n:href="Person: $child->id" title="Přejít na detail osoby" class="dataTableLink">{$child->name} {$child->surname}</a>
+				</td>				
+				<td class="rc">{$child->rc}</td>
+				<td class="adress">{$child->adress}</td>
+				<td class="age">{$presenter->getAge($child->rc)}</td>
+				<td class="category">{$category->get($child->category)->name}</td>
+				<td class="team">{$team->get($child->team_id)->name}</td>				
+			</tr>
+			</tbody>
+		</table>				
+	</div>
+</div>

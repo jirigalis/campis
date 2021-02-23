@@ -1,0 +1,41 @@
+Nováková Karolína;Růžová 19 Lužice;045115/0304
+Mitáček Slávek;Čejkovice;000629/4246
+Zugárek Ondřej;Mikulčice 260;011013/4222
+Rybnikářová Eliška;Slunná 271 Bučovice 68701;986001/0000
+Homzová Eliška;Seifertova 14 Hodonín;986128/4653
+Frolcová Barbora;Jižní 3 Hodonín;006205/4652
+Brhel Aleš;Sv. Čecha 1 Hodonín;030725/4651
+Janečková Patricie;Národní tř. 63 Hodonín;015106/4386
+Kománek Matěj;Jižní 15 Hodonín;990106/4602
+Kundrata Patrik;Pánov 293 Hodonín;000618/4607
+Kundrata Tadeáš;Pánov 293 Hodonín;031030/4599
+Smetková Valerie;Sv. Čecha 16 Hodonín;015110/4657
+Pavlínek Martin;Vřesová 11 Hodonín;040818/2335
+Vobořil Filip;Borůvková 20 Brno;970715/0398
+Pohlotková Lucie;Borůvková 20 Brno;995803/6077
+Schönel Viktor;Brandlova 83 Hodonín;980101/0000
+Orságová Sabina;Velká nad Veličkou 443;055222/2341
+Karásková Martina;Velká nad Veličkou 661;046015/2341
+Hofírková Lucie;Stavěšice 89;025311/4598
+Sečka Patrik;Vančurova 5 Hodonín;050309/8101
+Sečka Marek;Vančurova 5 Hodonín;050309/8090
+Plundrák Roman;Úzká 876 Čejkovice;000221/4597
+Rigby Jakub;Úzká 862 Čejkovice;000803/4598
+Trávníček Jakub;Vinařská 238 Čejkovice;000322/4650
+Bureš Patrik;Okružní 826 Čejkovice;010528/4212
+Mikešková Hana;Boženy Němcové 31 Brno;015810/4210
+Mikeška Jan;Boženy Němcové 31 Brno;980624/4184
+Kuchařová Nikola;Nenkovice 171;026202/4609
+Herzánová Kristýna;12. dubna 52 Hodonín;005409/2995
+Loru Valentina;Vřesová 5 Hodonín;005201/4644
+Škrobáková Viktoria;Družstevní 6 Hodonín;045103/1845
+Škrobák Štěpán;Družstevní 6 Hodonín;050109/0711
+Šardický Jakub;Včelín 278, Čejkovice;000130/4589
+Sitniková Jesenia;Ulice 123 město;025307/0000
+Vratislavský Vojtěch;Tyršova 1713 Hodonín;010508/4661
+Kmentová Kristýna;Kratiny 993 Lužice;035929/4650
+Mochňáč Radek;Janáčkova 15 Hodonín;050430/0709
+Huspenina Lukáš;U Červených Domků 6 Hodonín;010216/4645
+Kuthan Martin;Bukovany 34;991219/4589
+Mlejnková Natálie;Bzenecká 6 Brno;996117/0021
+Lagová Eliška;Sc. Viatora 43 Hodonín;025423/4134

@@ -1,0 +1,90 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">	
+	 <li class="backBtn"><a n:href="Team:">Zpět</a></li>
+	 <li><a n:href="Team:addPoints $team->id">Přidat body</a></li>
+	 <li><a n:href="Team:people $team->id">Zobrazit jen děti</a></li>
+</ul>
+</div>
+{/block}
+<h1 n:block=title>Detail oddílu {$team->name}</h1>
+
+<!-- CONTENT LEFT -->
+<div class="contentLeft">
+	<div class="boxWrapper shortBox">
+		<div class="boxHeading">Oddíl {$team->number} - {$team->name}</div>
+		<div class="boxContent">
+			<table>
+				<tr>
+					<td>Vedoucí:</td>
+					<td>{$lead->get($team->headId)->name} {$lead->get($team->headId)->surname}</td>
+				</tr>
+				<tr>
+					<td>Instruktor:</td>
+					<td>{$lead->get($team->instrId)->name} {$lead->get($team->instrId)->surname}</td>
+				</tr>
+			</table>				
+		</div>
+	</div>
+
+	<div class="boxWrapper shortBox">
+		<div class="boxHeading">Získané body v soutěžích jednotlivců</div>
+		<div class="boxContent">
+			<table class="dataTable">
+				<tr>
+					<th>Jméno</th>
+					<th>Počet bodů</th>
+				</tr>
+				{var $sum = 0}
+				<tr n:foreach="$sumPoints as $s">
+					<td><a n:href="Person: $s->id">{$s->surname} {$s->name}</a></td>
+					<td>{$s->sum}</td>
+					{php $sum += $s->sum}
+				</tr>
+				<tr class="sum-row">
+					<td>Součet bodů jednotlivců</td>
+					<td>{$sum}</td>
+				</tr>
+			</table>	 			
+		</div>
+	</div>
+</div>
+
+<!-- CONTENT RIGHT -->
+<div class="contentRight">
+	<div class="boxWrapper mediumBox">
+		<div class="boxHeading">Získané body v oddílových soutěžích</div>
+		<div class="boxContent">
+			<table class="dataTable">
+				<tr>
+					<th>Hra</th>
+					<th>Počet bodů</th>
+					<th>Datum</th>
+					<th>Poznámka</th>
+				</tr>
+				{php $sum = 0}
+				<tr n:foreach="$results as $r">
+					<td>{$game->get($r->game)->name}</td>
+					<td>{$r->points}</td>
+					<td>{$r->date}</td>
+					<td></td>
+					{php $sum += $r->points}
+				</tr>
+				<tr n:foreach="$points as $p">
+					<td>{$game->get($p->game)->name}</td>
+					<td>{$p->points}</td>
+					<td>{$p->date}</td>
+					<td>{$p->note}</td>
+					{php $sum += $p->points}
+				</tr>
+				<tr class="sum-row">
+					<td>Součet bodů za CTH</td>
+					<td>{$sum}</td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>	 			
+		</div>
+	</div>
+</div>

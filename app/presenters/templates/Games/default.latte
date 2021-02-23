@@ -1,0 +1,37 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">
+	<li><a href="#">Řazení</a>
+		<ul class="sub_menu">
+			 <li><a n:href="Games: name">Název Hry</a></li>		 
+			 <li><a n:href="Games: type">Typ hry</a></li>			 
+		</ul>
+	</li>
+	<li><a n:href="Settings:newGame">Nová hra</a></li>
+</ul>
+</div>
+{/block}
+<h1 n:block=title>Seznam her</h1>
+
+<div class="boxWrapper">
+	<div class="boxHeading">Přehled her</div>
+	<div class="boxContent">
+		<table id="sortable" class="dataTable tablesorter">
+		<thead>
+			<tr>
+				<th>Název</th>
+				<th>Typ hry</th>
+				<th>Popis</th>
+			</tr>
+		</thead><tbody>
+			<tr class="dataTable" n:foreach="$games as $g">
+				<td class="dataTable">{$g->name}</td>
+				<td class="dataTable">{$gameType->get($g->type)->name}</td>
+				<td class="dataTable">{$g->description}</td>
+			</tr>
+		</tbody>
+		</table>				
+	</div>
+</div>
+

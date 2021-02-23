@@ -1,0 +1,68 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">	
+	 <li class="backBtn"><a n:href="People:">Zpět</a></li>
+	 <li><a n:href="Person:edit $person->id">Upravit údaje</a></li>
+	 <li><a n:href="Person:addPoints $person->id">Přidat body</a></li>
+</ul>
+</div>
+{/block}
+<div class="boxWrapper shortBox">
+	<div class="boxHeading">Osobní údaje - {$person->name} {$person->surname}</div>
+	<div class="boxContent">
+		<table>
+			<tr>
+				<td>Oddíl:</td>
+				<td>{$team->number}</td>
+			</tr>
+			<tr>
+				<td>Rodné číslo:</td>
+				<td>{$person->rc}</td>
+			</tr>
+			<tr>
+				<td>Adresa:</td>
+				<td>{$person->adress}</td>
+			</tr>
+			<tr>
+				<td>Kategorie:</td>
+				<td>{$category->name}</td>
+			</tr>
+			<tr>
+				<td>Věk:</td>
+				<td>{$age}</td>
+			</tr>
+		</table>				
+	</div>
+</div>
+
+<div class="boxWrapper largeBox">
+	<div class="boxHeading">Získané body</div>
+	<div class="boxContent">
+		<table class="dataTable">
+			<tr>
+				<th>Hra</th>
+				<th>Typ hry</th>
+				<th>Počet získaných bodů</th>
+				<th>Datum a čas</th>
+				<th>Poznámka</th>
+			</tr>
+			{var $sum = 0}
+			<tr class="dataTable" n:foreach="$points as $p">
+				<td class="dataTable">{$game->get($p->game)->name}</td>
+				<td class="dataTable">{$gameType->get($game->get($p->game)->type)->name}</td>
+				<td class="dataTable">{$p->points}</td>
+				<td class="dataTable">{$p->date}</td>
+				<td class="dataTable">{$p->note}</td>
+					{php $sum += $p->points}
+			</tr>
+			<tr class="sum-row">
+				<td>Celkový součet získaných bodů</td>
+				<td></td>
+				<td>{$sum}</td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+</div>

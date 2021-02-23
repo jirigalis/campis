@@ -1,0 +1,24 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">
+	<li><a n:href="Team:">Bodování oddílů</a></li>
+	<li><a n:href="Team:personal">Bodování jednotlivců</a></li>	
+</ul>
+</div>
+{/block}
+<div class="boxWrapper shortBox">
+		<div class="boxHeading">Získané body v soutěžích jednotlivců</div>
+		<div class="boxContent">
+			<table class="dataTable tablesorter">
+				<tr>
+					<th>Jméno</th>
+					<th>Počet bodů</th>
+				</tr>
+				<tr n:foreach="$sumPoints as $s">
+					<td><a n:href="Person: $s->id">{$s->surname} {$s->name}</a></td>
+					<td>{$s->sum}</td>
+				</tr>
+			</table>	 			
+		</div>
+	</div>

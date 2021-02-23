@@ -1,0 +1,34 @@
+{block content}
+{block submenu}
+<div class="topPanelSubmenu">
+<ul class="dropdown">
+	<li><a href="#">Vložení dat</a>
+		<ul class="sub_menu">
+			 <li><a n:href="Settings:newCamp">Nový tábor</a></li>		 
+			 <li><a n:href="Settings:newLead">Člen vedení</a></li>
+			 <li><a n:href="Settings:newChild">Dítě</a></li>
+			 <li><a n:href="Settings:newGame">Hra</a></li>			 
+			 <li><a n:href="Settings:newTeam">Oddíl</a></li>			 
+		</ul>
+	</li>
+	<li><a href="#">Nastavení závodů</a>
+		<ul class="sub_menu">			 
+			 <li><a n:href="Settings:setRanked">Počet hodnocených míst</a></li>
+			 <li><a n:href="Settings:racePoints">Body v závodech jednotlivců</a></li>
+			 <li><a n:href="Settings:teamRacePoints">Body v oddílových závodech</a></li>
+		</ul>
+	</li>
+	
+	<li><a n:href="Settings:team">Nastavení oddílů</a></li>
+
+	<li><a n:href="Settings:pointsLead">Bodování vedoucích</a></li>
+
+	<li><a n:href="Settings:livePoints">Nastavení Live Points</a></li>
+	
+	<li><a n:href="Settings:selectCamp">Zvolit tábor</a></li>	
+	
+</ul>
+</div>
+{/block}
+<h1 n:block=title>Nastavení</h1>
+{*control childParserForm*}
